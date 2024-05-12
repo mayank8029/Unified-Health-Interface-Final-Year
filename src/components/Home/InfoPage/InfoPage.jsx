@@ -11,14 +11,15 @@ const InfoPage = () => {
                 <div className="row">
                     <div className="col-lg-4 d-flex align-items-stretch">
                         <div className="content">
-                            <h3>Why Choose Us?</h3>
+                            <h3>What is UHI ?</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                            The Unified Health Interface (UHI), a cornerstone of the Ayushman Bharat Digital Mission led by Prime Minister Narendra Modi, revolutionizes access to healthcare services in India by creating a seamless digital platform for patients and professionals alike
                             </p>
                             <div className="text-center">
-                                <Link href="/" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></Link>
-                            </div>
+                            <a href="https://uhi.abdm.gov.in/" className="more-btn" target="_blank" rel="noopener noreferrer">
+                                Learn More <i className="bx bx-chevron-right"></i>
+                            </a>
+                        </div>
                         </div>
                     </div>
                     <div className="col-lg-8 d-flex align-items-stretch">
@@ -27,30 +28,29 @@ const InfoPage = () => {
                                 <div className="col-xl-4 d-flex align-items-stretch">
                                     <div className="icon-box mt-4 mt-xl-0">
                                         <FaHouseUser className="icon"/>
-                                        <h4>Appointment</h4>
+                                        <h4>Appointment Scheduling and Record Management</h4>
                                         <small className='text-secondary'>24 Hours Service</small>
-                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                        <p>   - Allow patients to book, reschedule, or cancel appointments with doctors or specialists.</p>
+                                        <p>   - Securely store and manage patient medical records, including past visit notes, laboratory results, and medical imaging.</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 d-flex align-items-stretch">
                                     <div className="icon-box mt-4 mt-xl-0">
                                         <FaHeadset className="icon"/>
-                                        <h4>Emegency Cases</h4>
-                                        <h6 className='text-secondary'>+88 01751 040425</h6>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui facilis perferendis quia maxime. Laborum excepturi pariatur laboriosam nihil, dolor molestias.</p>
+                                        <h4>Doctor Profile and Medication Management</h4>
+                                        <p>-Detailed profiles for doctors and healthcare facilities, including qualifications, specialties, reviews, and available services.</p>
+
+                                        <p>-Prescription management streamlines medication adherence and safety by organizing and monitoring patient prescriptions digitally.</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 d-flex align-items-stretch">
                                     <div className="icon-box mt-4 mt-xl-0">
                                         <FaClock className="icon"/>
-                                        <h4>Working Hours</h4>
-                                        <small className='text-secondary'>Timing schedule</small>
-                                        <ul className='list-group list-group-flush'>
-                                        <li className="list-group-item d-flex justify-content-between text-nowrap" ><p>Sun - Wed : </p> <p>8:00 - 17: 00</p></li>
-                                        <li className="list-group-item d-flex justify-content-between text-nowrap" ><p>Thus - Fri : </p> <p>9:00 - 17: 00</p></li>
-                                        <li className="list-group-item d-flex justify-content-between text-nowrap" ><p>Sat - Sun : </p> <p>10:00 - 17: 00</p></li>
-                                        </ul>
-                                    </div>
+                                        <h4>Improving HealthCare</h4>
+                                        <small className='text-secondary'>Cross-Platform Integration and Data Exchange</small>
+                                        <p>
+                                        Improving Indian healthcare requires a multifaceted approach encompassing enhanced access, quality, and affordability, along with bolstering healthcare infrastructure and workforce capacity. Embracing technology, community engagement, and evidence-based policies can drive transformative change towards a more inclusive and effective healthcare system for all Indians.</p>
+                                       </div>
                                 </div>
                             </div>
                         </div>

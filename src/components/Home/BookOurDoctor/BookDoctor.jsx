@@ -98,7 +98,7 @@ const BookDoctor = () => {
 				<div className="row">
 					<div className="col-12 col-md-3 col-lg-3">
 						<div className='mb-2 section-title text-center'>
-							<h2>Book Our Doctor</h2>
+							<h2>Book Doctors</h2>
 							<p className='m-0 text-secondary'>Lorem ipsum dolor sit.</p>
 						</div>
 						<div className="form-text">

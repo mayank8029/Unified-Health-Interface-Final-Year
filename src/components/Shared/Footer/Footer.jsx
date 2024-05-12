@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/logoNew.png';
 import { Link } from 'react-router-dom';
 import { FaAngleDoubleRight } from "react-icons/fa";
 
@@ -14,7 +14,7 @@ const Footer = () => {
 							<div className="footer-widget footer-about">
 								<div className="footer-logo">
 									<Link to={'/'}>
-										<img src={logo} alt="logo" style={{ maxWidth: '160px' }} />
+										<img src={logo} alt="logo" style={{ maxWidth: '360px' }} />
 									</Link>
 								</div>
 								<div className="footer-about-content">
@@ -55,15 +55,15 @@ const Footer = () => {
 								<div className="footer-contact-info">
 									<div className="footer-address">
 										<span><i className="fas fa-map-marker-alt"></i></span>
-										<p> 121, Mirzapure Union office,<br /> Sylhet, Bangladesh 03214 </p>
+										<p> 11 Maheshwari Nagar <br /> Pali, Rajasthan</p>
 									</div>
 									<p>
 										<i className="fas fa-phone-alt"></i>
-										+88 017 51 040425
+										102
 									</p>
 									<p className="mb-0">
 										<i className="fas fa-envelope"></i>
-										ujjalzaman@gmail.com
+										mayankjhanwar29@gmail.com
 									</p>
 								</div>
 							</div>
